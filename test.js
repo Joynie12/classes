@@ -1,4 +1,10 @@
-const { Character, Bowerman, Swordsman, Magician, Daemon, Undead, Zombie } = require('./character');
+import Character from './character';
+import  Swordsman from './class/swordsman';
+import  Zombie from './class/zombie';
+import  Bowerman from './class/bowerman';
+import  Undead from './class/undeаd';
+import  Daemon from './class/daemon';
+import  Magician from './class/magician';
 
 describe('Character', () => {
   it('should throw error if name length < 2', () => {
